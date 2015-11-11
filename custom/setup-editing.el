@@ -45,8 +45,20 @@
 (setq c-default-style "linux"
       c-basic-offset 4)
 
+;; Setup duplicate-thing
+(require 'duplicate-thing)
+(global-set-key (kbd "M-c") 'duplicate-thing)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Package: volatile-highlights          ;;
+;;                                       ;;
+;; GROUP: Editing -> Volatile Highlights ;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(require 'volatile-highlights)
+(volatile-highlights-mode t)
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Customized functions                ;;
+;; Customized functions               ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (defun prelude-move-beginning-of-line (arg)
     "Move point back to indentation of beginning of line.
