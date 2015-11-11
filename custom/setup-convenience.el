@@ -1,1 +1,1 @@
-(provide 'setup-convenience.el)
+(provide 'setup-convenience)

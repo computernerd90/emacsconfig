@@ -4,8 +4,10 @@
 ;; Add MELPA
 (require 'setup-melpa)
 
-;; Add general (non-package) emacs customizations
+;; Ensure packages are installed
+(require 'setup-packages)
 
+;; Add general (non-package) emacs customizations
 (require 'setup-applications)
 (require 'setup-communication)
 (require 'setup-convenience)

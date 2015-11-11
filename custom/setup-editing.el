@@ -7,6 +7,7 @@
 ;; default to 4 visible spaces to display a tab
 (setq-default tab-width 4)
 
+;; Ensure UTF-8 stuff
 (set-terminal-coding-system 'utf-8)
 (set-keyboard-coding-system 'utf-8)
 (set-language-environment "UTF-8")
@@ -37,6 +38,10 @@
 					  newline-mark))
 			    (whitespace-mode 1)))
 
+;; Setup stuff for systemd mode
+(require 'systemd)
+
+;; Set code style for C mode
 (setq c-default-style "linux"
       c-basic-offset 4)
 
