@@ -1,6 +1,6 @@
 (package-initialize)
 
-(setq emacs-package-list '(org puppet-mode epl systemd workgroups2 duplicate-thing volatile-highlights smartparens))
+(setq emacs-package-list '(org puppet-mode epl systemd workgroups2 duplicate-thing volatile-highlights smartparens clean-aindent-mode undo-tree yasnippet))
 
 ;; fetch the list of packages available
 (unless package-archive-contents
