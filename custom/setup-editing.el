@@ -41,10 +41,6 @@
 ;; Setup stuff for systemd mode
 (require 'systemd)
 
-;; Set code style for C mode
-(setq c-default-style "linux"
-      c-basic-offset 4)
-
 ;; Setup duplicate-thing
 (require 'duplicate-thing)
 (global-set-key (kbd "M-c") 'duplicate-thing)
