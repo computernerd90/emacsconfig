@@ -30,3 +30,6 @@ tramp
 
 # cask packages
 .cask/
+places
+projectile-bookmarks.eld
+recentf
