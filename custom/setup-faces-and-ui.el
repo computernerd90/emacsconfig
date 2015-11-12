@@ -1,3 +1,3 @@
-(setq theme-current 'deeper-blue)
+(load-theme 'deeper-blue)
 
 (provide 'setup-faces-and-ui)

@@ -58,6 +58,7 @@
 (volatile-highlights-mode t)
 
 ;; Package: smartparens
+(smartparens-global-mode t)
 (require 'smartparens-config)
 (setq sp-base-key-bindings 'paredit)
 (setq sp-autoskip-closing-pair 'always)
