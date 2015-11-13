@@ -104,4 +104,15 @@
 (require 'flycheck-tip)
 (flycheck-tip-use-timer 'verbose)
 
+;; semantic
+(require 'cc-mode)
+(require 'semantic)
+
+(global-semanticdb-minor-mode 1)
+(global-semantic-idle-scheduler-mode 1)
+
+(semantic-mode 1)
+
+(add-to-list 'company-backends 'company-c-headers)
+
 (provide 'setup-programming)

@@ -8,7 +8,7 @@
                                recentf-ext ztree shell-pop diff-hl
                                magit flycheck flycheck-tip nyan-mode
                                highlight-numbers highlight-symbol
-                               ))
+                               helm-gtags semantic company-c-headers))
 
 ;; fetch the list of packages available
 (unless package-archive-contents

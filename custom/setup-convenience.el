@@ -97,4 +97,7 @@
 ;; Load helm
 (require 'setup-helm)
 
+;; Load helm-gtags
+(require 'setup-helm-gtags)
+
 (provide 'setup-convenience)
