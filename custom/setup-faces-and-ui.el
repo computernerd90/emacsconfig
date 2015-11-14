@@ -1,4 +1,4 @@
-;; (load-theme 'deeper-blue)
+(load-theme 'tsdh-dark)
 
 ;; you won't need any of the bar thingies
 ;; turn it off to save screen estate
